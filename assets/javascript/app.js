@@ -12,25 +12,25 @@ var flag = 0;
 $(document).on("click", "button", function () {
     questions = [
         {
-            Quest: "This is the first question",
+            Quest: "Who was the legendary Benedictine monk who invented champagne?",
             Answers: [
-                "an1", "an2", "an3", "an4",
+                "Dom Perignon", "Francios de Bar", "Martin Luther", "Gregor Mendel",
             ],
-            Correct: "an1"
+            Correct: "Dom Perignon"
         },
         {
-            Quest: "This is the second question",
+            Quest: "Russia is Europe's largest country by area. What is the second largest?",
             Answers: [
-                "ans1", "ans2", "ans3", "ans4",
+                "Ukraine", "Denmark", "Poland", "France",
             ],
-            Correct: "ans2"
+            Correct: "Denmark"
         },
         {
-            Quest: "This is the third question",
+            Quest: "What is the first Sherlock Holmes book published?",
             Answers: [
-                "answ1", "answ2", "answ3", "answ4",
+                "The Hound of the Baskervilles", "The Valley of Fear", "The Adventures of Sherlock Holmes", "A Study in Scarlet",
             ],
-            Correct: "answ3"
+            Correct: "A Study in Scarlet"
         }];
     win = 0;
     loss = 0;
